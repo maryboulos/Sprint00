@@ -1,0 +1,20 @@
+$ cd Part1
+$ git init
+$ git add file1.docx
+$ git add file2.docx
+$ git add file3.docx
+$ git status
+$ git rm -f file2.docx
+$ git checkout file2.docx
+$ git commit -m "First commit"
+$ git remote add origin https://github.com/maryboulos/Sprint00.git
+$ git push -u origin master
+$ git checkout -b ReadMe
+$ git add README.md
+$ git commit -m "Read me commit"
+$ git push -u origin ReadMe
+$ git checkout master
+$ git merge ReadMe
+$ git add AllMyCommands.txt
+$ git commit -m "AllMyCommands commit"
+$ git push -u origin master
